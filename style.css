@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body                      {
+    height: 100vh ;
+    background-color: rgb(153, 0, 255);
+    color: white
+
+}
+.apresentacao{
+    margin: 10%;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}  
+.titulo{
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font color: red;
+}
+.texto{
+    font-size: 24px;
+}
+
+.foto{
+    float: left; 
+    margin-right: 30px;
+    width: 150px;}
+
+
+.musica{
+    gap: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'lobster', sans-serif;
+    font-weight: 400;
+    border: 12px dooble white;
+}
+.musica:hover{
+    background-color: bisque;
+
+}
+.rodape {
+    color: #000
+    background-color: white   
+    padding: 20px 15px;
+    text-align: center;
+    width: 100%;
+}
